@@ -3,10 +3,10 @@
 <h2 align="center">Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, WE are TEAM NEWBIE :man_technologist:</h2>
 <p>A Flutter project for the HACKODISHA 2.0</p>
 
-<h3><b>Introduction to the Problem</b></h3>
+## Introduction to the Problem
 <img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
 
-<p>In the recent times it is observed that INDIA along with Pakistan and Bangladesh, all the south-asian nations are going to face the NATURAL DISASTERS caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
+<p>In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the NATURAL DISASTERS caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
 
 <b>Recent Events Occured:-</b>
 Almost 33 million people are displaced and many have lost their lives.  
@@ -15,16 +15,40 @@ U can find about it more on:-  <a href="http://www.emro.who.int/images/stories/P
 We cannot solve these calamity problems but atleast we can help person in crisis so we built an APP where people can find their lost members.</p>
 
 
+## Tagline
 
-<h3><b># Tagline</b></h3>
-
-<p> NOW, natural calamities can’t separate u from your loved ones .Find your Lost Loved Ones . Let’s fight disasters together
-
- This app will help to person affected in floods etc.  to find the lost ones thru their last location
-</p>
+<p> NOW, natural calamities can’t separate u from your loved ones .Find your Lost Loved Ones . Let’s fight disasters together :handshake:</p>
 
 
-<h3><b># Future Updates</b></h3>
+## KEY FEATURES:-
+<ol>1. MAIN FEATURE:- Here, the app's facial recognition technology may find photos and other information about the missing person, and relaying that information to both parties for further communication or used for search  operations.</ol>
+<ol>2.Sharing the affected person's present location with a photo to volunteers, the task force, and everyone in the area helps the situation.</ol>
+<ol>3.People who want to locate their missing family members can register, upload photos, and provide other details so that anyone with information can get in touch.</ol>
+<ol>4.The "Show location of relief centre" option displays the route to the operational relief centre from the user's present position.</ol>
+<ol>5.The Disaster relief team can publish a photo of the survivor so that family members can locate their loved one. - Search People page (List of Missing Persons and Submitting a Photo of Missing Person</ol>
+
+## Prerequisites :desktop_computer:
+
+
+## :toolbox: Built With:-
+1. <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" alt="Fire-base-logo" width="50" height="50" />
+2. <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" alt="flutter-logo" width="50" height="50" />
+3. <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original-wordmark.svg" alt="dart-logo" width="100" />
+
+
+## Working & Usage 
+
+## What we learned 🤓
+We are a group of very enthusiastic developers who are open to learning and experimenting with new techs. The thing which is common among us is that we love hackathons 🤩. In this hackathon we learnt .
+
+## Our Mission   <img src="https://www.animatedimages.org/data/media/90/animated-fire-image-0379.gif" border="0" alt="animated-fire-image-0379" />
+<p>Hovering over various pages, reports, and news headlines allowed us to genuinely learn more in-depth about the issues/challenges faced by the people, which was one of the crucial aspects we encountered while gathering data sources for the floods or other natural tragedies. We felt quite devastated. We therefore anticipate that as technology advances, it will be able to assist a large number of individuals in crisis with 100% accuracy.
+
+Recent Events Included: 33 million people are being displaced, and the Pakistan floods have claimed countless lives.
+We made an APP so that people can find their lost family members or at the very least, they won't ask, "WHERE THE HELL AM I?" Even though we cannot fix these terrible catastrophic problems, we can at least assist individuals in need.</p>
+
+
+## Future Updates(Working ON)
 
 <ol>1. We can provide information regarding first aid , disaster reliefs</ol>
 <ol>2. WE are thinking to build a platform through which messages can be ralyed to concerned people for donation purposes.</ol>
@@ -35,4 +59,4 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 
 
 
- <h2 align="center">Project by TEAM NEWBIE</h2>
+ <h2 align="center">:dizzy:Project by TEAM NEWBIE:dizzy:</h2>

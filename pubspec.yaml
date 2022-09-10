@@ -86,16 +86,16 @@ flutter:
   fonts:
     - family: Oswald
       fonts:
-        - asset: assets/Oswald-Regular.ttf
+        - asset: assets/fonts/Oswald-Regular.ttf
     - family: Nunito
       fonts:
-        - asset: assets/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Regular.ttf
     - family: MsMadi
       fonts:
-        - asset: assets/MsMadi-Regular.ttf
+        - asset: assets/fonts/MsMadi-Regular.ttf
     - family: RubikDirt
       fonts:
-        - asset: assets/RubikDirt-Regular.ttf
+        - asset: assets/fonts/RubikDirt-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

@@ -1,6 +1,6 @@
 ![MasterHead](https://c.tenor.com/6aSncIN19j8AAAAC/banner.gif)
 <h1 align="center"><b>Khojo_app_hack</b></h1>
-<h2 align="center">Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, WE are TEAM NEWBIE :face_in_clouds:</h2>
+<h2 align="center">Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, WE are TEAM NEWBIE :man_technologist:</h2>
 <p>A Flutter project for the HACKODISHA 2.0</p>
 
 <h3><b>Introduction to the Problem</b></h3>

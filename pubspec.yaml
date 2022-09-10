@@ -37,6 +37,7 @@ dependencies:
   tflite_flutter: ^0.9.0
   firebase_core: ^1.22.0
   firebase_auth: ^3.8.0
+  firebase_storage: ^10.3.8
   cloud_firestore: ^3.4.7
   camera: ^0.10.0+1
   google_ml_kit: ^0.12.0
@@ -45,6 +46,7 @@ dependencies:
   url_launcher: ^6.1.5
   animated_text_kit: ^4.2.2
   modal_progress_hud_nsn: ^0.3.0
+  file_picker: ^4.6.1
 
 dev_dependencies:
   flutter_test:

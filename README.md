@@ -1,7 +1,7 @@
 ![MasterHead](https://c.tenor.com/6aSncIN19j8AAAAC/banner.gif)
 <h2># khoj_app_hack</h2>
 
-<p>A new Flutter project.</p>
+<p>A new Flutter project for the HACKODISHA 2.0</p>
 
 <h3><b>Introduction to the Problem</b></h3>
 <img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
@@ -32,4 +32,4 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 </p>
 
 
-Flutter Project
+                                    MADE WITH 😍 by TEAM NEWBIE

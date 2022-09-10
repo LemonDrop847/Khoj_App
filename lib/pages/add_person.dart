@@ -2,9 +2,9 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:khoj_app_hack/services/storage_service.dart';
+import 'package:khoj_app_hack/services/database_service.dart';
 import 'home.dart';
 import '../components/rounded_button.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import '../constants.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:file_picker/file_picker.dart';
@@ -18,6 +18,7 @@ class addPerson extends StatefulWidget {
 
 class _addPersonState extends State<addPerson> {
   final Storage storage = Storage();
+  final Database database = Database();
   late final path;
   late final fileName;
   late String name = '';
@@ -127,26 +128,19 @@ class _addPersonState extends State<addPerson> {
                 title: 'Add Person',
                 colour: Colors.blueAccent,
                 onPressed: () async {
-                  setState(() {
-                    showSpinner = true;
+                  try {
                     storage
                         .uploadFile(path, fileName, name)
-                        .then((value) => print('done'));
-                  });
-                  // print(email);
-                  // print(password);
-                  // try {
-                  //   final newUser = await _auth.createUserWithEmailAndPassword(
-                  //       email: email, password: password);
-                  //   if (newUser != null) {
-                  //     Navigator.pushNamed(context, homeScreen.id);
-                  //   }
-                  //   setState(() {
-                  //     showSpinner = false;
-                  //   });
-                  // } catch (e) {
-                  //   print(e);
-                  // }
+                        .then((value) => print('Image Uploaded'));
+                    database.addUser(name: name, address: address);
+                  } catch (e) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Couldnt Register'),
+                      ),
+                    );
+                  }
+                  Navigator.pop(context);
                 },
               )
             ],

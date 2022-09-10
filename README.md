@@ -1,5 +1,5 @@
 ![MasterHead](https://c.tenor.com/6aSncIN19j8AAAAC/banner.gif)
-<h1 align="center">Khojo_app_hack</h1>
+<h1 align="center"><b>Khojo_app_hack</b></h1>
 <h2 align="center">Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, WE are TEAM NEWBIE :face_in_clouds:</h2>
 <p>A Flutter project for the HACKODISHA 2.0</p>
 
@@ -16,6 +16,14 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 
 
 
+<h3><b># Tagline</b></h3>
+
+<p> NOW, natural calamities can’t separate u from your loved ones .Find your Lost Loved Ones . Let’s fight disasters together
+
+ This app will help to person affected in floods etc.  to find the lost ones thru their last location
+</p>
+
+
 <h3><b># Future Updates</b></h3>
 
 <ol>1. We can provide information regarding first aid , disaster reliefs</ol>
@@ -24,12 +32,7 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 <ol>4. We also want to add a page where preventive measures or rapid procedures / action task force will be shown as a general awareness to the people</ol>
 
 
-<h3><b># Tagline</b></h3>
 
-<p> NOW, natural calamities can’t separate u from your loved ones .Find your Lost Loved Ones . Let’s fight disasters together
-
- This app will help to person affected in floods etc.  to find the lost ones thru their last location
-</p>
 
 
  <h2 align="center">Project by TEAM NEWBIE</h2>

@@ -18,10 +18,10 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 
 <h3><b># Future Updates</b></h3>
 
-<p> we can provide information regarding first aid , disaster reliefs
-2. it can also show donation page 
-3. NEWS ROOM - news reports around the globe to stay updated regarding the issue 
-4. we also want to add a page where preventive measures or rapid procedures / action task force will be shown as a general awareness to the peoplep</p>
+<ol>1. We can provide information regarding first aid , disaster reliefs</ol>
+<ol>2. WE are thinking to build a platform through which messages can be ralyed to concerned people for donation purposes.</ol>
+<ol>3. NEWS ROOM - here we will try to provide updated ethical stats regarding the flood affected area.</ol>
+<ol>4. We also want to add a page where preventive measures or rapid procedures / action task force will be shown as a general awareness to the people</ol>
 
 
 <h3><b># Tagline</b></h3>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "39398860900",
+    "project_id": "khoj-app-d89da",
+    "storage_bucket": "khoj-app-d89da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39398860900:android:b9064b95c13b2cf3c31771",
+        "android_client_info": {
+          "package_name": "com.lemondrop.khoj_app_hack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39398860900-140hjh3p1qfb5jtjq1ub3aitd7f6vn9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpPmf7CDvHltxpj5_AMDu8qP3tdSs3Pr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39398860900-140hjh3p1qfb5jtjq1ub3aitd7f6vn9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

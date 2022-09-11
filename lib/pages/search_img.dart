@@ -1,6 +1,12 @@
+import 'dart:convert';
+import 'dart:io' as io;
+import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:khoj_app_hack/components/rounded_button.dart';
+import 'package:khoj_app_hack/locator.dart';
+import 'package:khoj_app_hack/services/face_detector_service.dart';
+import 'package:khoj_app_hack/services/ml_service.dart';
 import 'home.dart';
-import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'package:file_picker/file_picker.dart';
 
 class searchImg extends StatefulWidget {
@@ -14,11 +20,12 @@ class _searchImgState extends State<searchImg> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(117, 17, 124, 143),
       appBar: AppBar(
           elevation: 0,
-          backgroundColor: Colors.black45,
+          backgroundColor: Color.fromARGB(0, 17, 124, 143),
           leading: IconButton(
-            iconSize: 30,
+            iconSize: 25,
             icon: Icon(Icons.arrow_back_ios),
             onPressed: () {
               Navigator.pop(context);
@@ -39,18 +46,18 @@ class _searchImgState extends State<searchImg> {
                 ),
               ),
             ),
-            MaterialButton(
-                color: Colors.lightBlueAccent,
-                child: Text(
-                  'Choose Image',
-                ),
+            RoundedButton(
+                colour: Colors.black45,
+                title: 'Choose Image',
                 onPressed: () async {
                   final results = await FilePicker.platform.pickFiles(
                     allowMultiple: false,
                     type: FileType.custom,
                     allowedExtensions: ['png', 'jpeg', 'jpg'],
                   );
-                })
+                }),
+            RoundedButton(
+                title: 'Search', colour: Colors.blueAccent, onPressed: () {}),
           ],
         ),
       ),

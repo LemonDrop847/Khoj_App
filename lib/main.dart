@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:khoj_app_hack/locator.dart';
+import 'package:khoj_app_hack/pages/onboarding.dart';
 import 'package:khoj_app_hack/pages/search_page.dart';
 import '/pages/home.dart';
 import '/pages/search_img.dart';
 import '/pages/search_name.dart';
 import '/pages/profile.dart';
 import '/pages/add_person.dart';
+import '/pages/onboarding.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  setupServices();
+
   runApp(MyApp());
 }
 
@@ -17,8 +22,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: homeScreen.id,
+      debugShowCheckedModeBanner: false,
+      initialRoute: Onboarding.id,
       routes: {
+        Onboarding.id: (context) => onboarding(),
         homeScreen.id: (context) => homeScreen(),
         searchImg.id: (context) => searchImg(),
         addPerson.id: (context) => addPerson(),

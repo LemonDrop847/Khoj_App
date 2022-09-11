@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.khoj_app_hack">
    <application
-        android:label="khoj_app_hack"
+        android:label="Khoj"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

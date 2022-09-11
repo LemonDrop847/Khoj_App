@@ -99,6 +99,9 @@ flutter:
     - family: RubikDirt
       fonts:
         - asset: assets/fonts/RubikDirt-Regular.ttf
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir-Medium.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

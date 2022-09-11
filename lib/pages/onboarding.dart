@@ -7,7 +7,7 @@ class Onboarding extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'avenir'),
+      theme: ThemeData(fontFamily: 'Avenir'),
       home: onboarding(),
     );
   }
@@ -25,6 +25,7 @@ class _onboardingState extends State<onboarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(117, 17, 124, 143),
       body: Stack(
         children: [
           Column(
@@ -79,7 +80,7 @@ class _onboardingState extends State<onboarding> {
                       ]),
                       child: const Text(
                         "Get Started",
-                        style: TextStyle(fontSize: 16),
+                        style: TextStyle(fontSize: 16, fontFamily: 'Avenir'),
                       ),
                     ),
                   ),
@@ -128,14 +129,18 @@ class _onboardingState extends State<onboarding> {
           padding: EdgeInsets.symmetric(vertical: 10),
           child: Text(
             title,
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),
+            style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.w500,
+                fontFamily: 'Nunito'),
           ),
         ),
         Container(
           padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
           child: Text(
             "This app aims to use innovative approaches to solving the problems in the diaster prone areas. Through technology, it aims to give you a sense of peace and calm knowing that your loved ones are safe.",
-            style: TextStyle(fontSize: 16, color: Colors.grey),
+            style: TextStyle(
+                fontSize: 16, color: Colors.grey, fontFamily: 'Avenir'),
             textAlign: TextAlign.center,
           ),
         )

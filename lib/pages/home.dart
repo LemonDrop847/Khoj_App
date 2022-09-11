@@ -20,6 +20,16 @@ class _homeScreenState extends State<homeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(117, 17, 124, 143),
+      appBar: AppBar(
+          elevation: 0,
+          backgroundColor: Color.fromARGB(0, 17, 124, 143),
+          leading: IconButton(
+            iconSize: 25,
+            icon: Icon(Icons.arrow_back_ios),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          )),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(

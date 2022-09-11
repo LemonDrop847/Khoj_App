@@ -21,7 +21,7 @@ class Database {
       CollectionReference people =
           FirebaseFirestore.instance.collection('users');
       final snapshot = await people.doc(name).get();
-      final data = snapshot.data() as Map<String, dynamic>;
+      final data = snapshot.data() as Map<String, String>;
       return data['location'];
     } catch (e) {
       return 'Error fetching user';

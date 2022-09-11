@@ -23,6 +23,7 @@ class _searchNameState extends State<searchName> {
   late final fileName;
   late String name = '';
   late String address = '';
+  late String searchvalue = "";
 
   bool showSpinner = false;
   @override
@@ -61,7 +62,7 @@ class _searchNameState extends State<searchName> {
               ),
               TextField(
                 textAlign: TextAlign.center,
-                onChanged: (value) {
+                onChanged: (value) async {
                   name = value;
                 },
                 decoration: kTextFieldDecoration.copyWith(
@@ -71,10 +72,35 @@ class _searchNameState extends State<searchName> {
                 height: 8.0,
               ),
               RoundedButton(
-                title: 'Search Person',
-                colour: Colors.blueAccent,
-                onPressed: () async {},
-              )
+                  title: 'Search Person',
+                  colour: Colors.blueAccent,
+                  onPressed: () {
+                    setState(() {
+                      searchvalue = name;
+                    });
+                  }),
+              FutureBuilder(
+                future: storage.downloadURL(searchvalue),
+                builder:
+                    (BuildContext context, AsyncSnapshot<String> snapshot) {
+                  if (snapshot.connectionState == ConnectionState.done &&
+                      snapshot.hasData) {
+                    return SizedBox(
+                      width: 300,
+                      height: 300,
+                      child: Image.network(
+                        snapshot.data!,
+                        fit: BoxFit.cover,
+                      ),
+                    );
+                  }
+                  if (snapshot.connectionState == ConnectionState.waiting ||
+                      !snapshot.hasData) {
+                    return const CircularProgressIndicator();
+                  }
+                  return Container();
+                },
+              ),
             ],
           ),
         ),

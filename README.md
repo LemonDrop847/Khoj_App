@@ -5,12 +5,14 @@
 <h2 align="center">Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, WE are TEAM NEWBIE :man_technologist:</h2>
 <p>A Flutter project for the HACKODISHA 2.0</p>
 
+<img align="" alt="coding" width="100%" src="https://i.postimg.cc/YSXvrwqW/Cover-Image.png" alt="">
 
 ## Introduction to the Problem :worried:
 
 
 <h3><b># Introduction(Problem)</b></h3>
-<img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
+
+<img align="right" alt="coding" width="40%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
 
 In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the  
 [natural disasters](https://en.wikipedia.org/wiki/Natural_disaster) caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
@@ -31,10 +33,6 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 As a result of climate change, global warming, and its proximity to the Indian Ocean, it has just come to light that INDIA, along with Pakistan and Bangladesh, would all experience [natural disasters](https://en.wikipedia.org/wiki/Natural_disaster) like floods, landscapes, earthquakes, Volcanic eruptions in the future. Additionally, the recent floods in Pakistan, North-Eastern India, and Eastern India (Odisha) were devastating and caused the destruction of hundreds of thousands of homes as well as numerous public health facilities, water systems, and educational institutions. Many people lost their lives, were displaced, and frequently became separated from their families. For a while, they lived in fear of whether they would ever be reunited with them or whether they were still alive.
 
 Our APP serves as a beacon of hope in this situation by helping people locate loved ones who have gone missing. The individual afflicted by floods or other disasters can use this app to locate lost loved ones based on their last known location and reunite with them.
-
-
-
-
 
 
 ## Tagline :sparkles:

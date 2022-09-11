@@ -1,35 +1,38 @@
 ![MasterHead](https://c.tenor.com/6aSncIN19j8AAAAC/banner.gif)
-<<<<<<< HEAD
+
 <h2># khoj_app_hack</h2>
-=======
 <h1 align="center"><b>Khojo_app_hack</b></h1>
 <h2 align="center">Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, WE are TEAM NEWBIE :man_technologist:</h2>
 <p>A Flutter project for the HACKODISHA 2.0</p>
->>>>>>> upstream/master
+
 
 ## Introduction to the Problem :worried:
 <img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
 
-<<<<<<< HEAD
+
 <h3><b># Introduction(Problem)</b></h3>
 <img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
-=======
+
 <p>In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the NATURAL DISASTERS caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
->>>>>>> upstream/master
+
 
 <b>Recent Events Occured:-</b>
 Almost 33 million people are displaced and many have lost their lives.  
-U can find about it more on:-  <a href="http://www.emro.who.int/images/stories/Pakistans_2nd_sit_rep_final.pdf?ua=1">Pakistan Floods</a>  <a href="https://www.livemint.com/news/india/odisha-floods-over-4-67-lakh-affected-govt-prepares-for-next-spell-of-rain-11660787648585.html">Odisha Floods</a> 
 
+U can find about it more on:- 
+* <a href="https://www.livemint.com/news/india/odisha-floods-over-4-67-lakh-affected-govt-prepares-for-next-spell-of-rain-11660787648585.html">Odisha Floods</a> 
+* [Wikipedia](https://en.wikipedia.org/wiki/Natural_disasters_in_India)
+* [jagranjosh](https://www.jagranjosh.com/general-knowledge/list-of-major-natural-disasters-in-the-history-of-india-1590147440-1)
+* [natural calamity](http://www.sikkimlrdm.gov.in/lrd/NaturalCalamity.html)
+* <a href="http://www.emro.who.int/images/stories/Pakistans_2nd_sit_rep_final.pdf?ua=1">Pakistan Floods</a>  
 We cannot solve these calamity problems but atleast we can help person in crisis so we built an APP where people can find their lost members.</p>
 
 
-<<<<<<< HEAD
+
 
 <h3><b># Future Updates</b></h3>
-=======
+
 ## Tagline :sparkles:
->>>>>>> upstream/master
 
 <p> NOW, natural calamities can’t separate u from your loved ones .Find your Lost Loved Ones . Let’s fight disasters together :handshake:</p>
 
@@ -44,7 +47,7 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 ## Prerequisites :desktop_computer:
 
 
-<<<<<<< HEAD
+
 Flutter Project
 =======
 ##  Built With :toolbox:
@@ -104,7 +107,19 @@ We made an APP so that people can find their lost family members or at the very 
  
 </table>
 
+## Contributing
+
+Contributions are always welcome!
+
+Please refer to each project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+* Fork the repo on GitHub
+* Clone the project to your own machine
+* Commit changes to your own branch
+* Push your work back up to your fork
+* Submit a Pull request so that we can review your changes
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+
+Please adhere to this project's `code of conduct`.
 
 
  <h2 align="center">:dizzy:Project by TEAM NEWBIE:dizzy:</h2>
->>>>>>> upstream/master

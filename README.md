@@ -3,7 +3,7 @@
 <h2 align="center">Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, WE are TEAM NEWBIE :man_technologist:</h2>
 <p>A Flutter project for the HACKODISHA 2.0</p>
 
-## Introduction to the Problem
+## Introduction to the Problem :worried:
 <img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
 
 <p>In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the NATURAL DISASTERS caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
@@ -15,12 +15,12 @@ U can find about it more on:-  <a href="http://www.emro.who.int/images/stories/P
 We cannot solve these calamity problems but atleast we can help person in crisis so we built an APP where people can find their lost members.</p>
 
 
-## Tagline
+## Tagline :sparkles:
 
 <p> NOW, natural calamities can’t separate u from your loved ones .Find your Lost Loved Ones . Let’s fight disasters together :handshake:</p>
 
 
-## KEY FEATURES:-
+## Key Features:key:
 <ol>1. MAIN FEATURE:- Here, the app's facial recognition technology may find photos and other information about the missing person, and relaying that information to both parties for further communication or used for search  operations.</ol>
 <ol>2.Sharing the affected person's present location with a photo to volunteers, the task force, and everyone in the area helps the situation.</ol>
 <ol>3.People who want to locate their missing family members can register, upload photos, and provide other details so that anyone with information can get in touch.</ol>
@@ -30,7 +30,7 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 ## Prerequisites :desktop_computer:
 
 
-## :toolbox: Built With:-
+##  Built With :toolbox:
 1. <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" alt="Fire-base-logo" width="50" height="50" />
 2. <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" alt="flutter-logo" width="50" height="50" />
 3. <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original-wordmark.svg" alt="dart-logo" width="100" />
@@ -48,7 +48,7 @@ Recent Events Included: 33 million people are being displaced, and the Pakistan 
 We made an APP so that people can find their lost family members or at the very least, they won't ask, "WHERE THE HELL AM I?" Even though we cannot fix these terrible catastrophic problems, we can at least assist individuals in need.</p>
 
 
-## Future Updates(Working ON)
+## Future Updates
 
 <ol>1. We can provide information regarding first aid , disaster reliefs</ol>
 <ol>2. WE are thinking to build a platform through which messages can be ralyed to concerned people for donation purposes.</ol>

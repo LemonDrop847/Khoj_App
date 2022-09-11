@@ -1,10 +1,13 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:khoj_app_hack/services/storage_service.dart';
+import 'package:khoj_app_hack/services/database_service.dart';
 import 'home.dart';
 import '../components/rounded_button.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import '../constants.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
+import 'package:file_picker/file_picker.dart';
 
 class addPerson extends StatefulWidget {
   const addPerson({Key? key}) : super(key: key);
@@ -14,9 +17,13 @@ class addPerson extends StatefulWidget {
 }
 
 class _addPersonState extends State<addPerson> {
-  // final _auth = FirebaseAuth.instance;
-  // late String email;
-  // late String password;
+  final Storage storage = Storage();
+  final Database database = Database();
+  late final path;
+  late final fileName;
+  late String name = '';
+  late String address = '';
+
   bool showSpinner = false;
   @override
   Widget build(BuildContext context) {
@@ -26,7 +33,7 @@ class _addPersonState extends State<addPerson> {
           elevation: 0,
           backgroundColor: Color.fromARGB(0, 17, 124, 143),
           leading: IconButton(
-            iconSize: 30,
+            iconSize: 25,
             icon: Icon(Icons.arrow_back_ios),
             onPressed: () {
               Navigator.pop(context);
@@ -72,15 +79,34 @@ class _addPersonState extends State<addPerson> {
               RoundedButton(
                   colour: Color.fromARGB(255, 51, 51, 51),
                   title: 'Choose Image',
-                  onPressed: () {}),
+                  onPressed: () async {
+                    final results = await FilePicker.platform.pickFiles(
+                      allowMultiple: false,
+                      type: FileType.custom,
+                      allowedExtensions: ['png', 'jpeg', 'jpg'],
+                    );
+                    if (results == null) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text('No Image Selected'),
+                        ),
+                      );
+                      return null;
+                    }
+                    path = results.files.single.path!;
+                    fileName = results.files.single.name;
+
+                    print(path);
+                    print(fileName);
+                  }),
               SizedBox(
                 height: 48.0,
               ),
               TextField(
                 textAlign: TextAlign.center,
-                // onChanged: (value) {
-                //   email = value;
-                // },
+                onChanged: (value) {
+                  name = value;
+                },
                 decoration:
                     kTextFieldDecoration.copyWith(hintText: 'Enter Name'),
               ),
@@ -89,9 +115,9 @@ class _addPersonState extends State<addPerson> {
               ),
               TextField(
                 textAlign: TextAlign.center,
-                // onChanged: (value) {
-                //   password = value;
-                // },
+                onChanged: (value) {
+                  address = value;
+                },
                 decoration:
                     kTextFieldDecoration.copyWith(hintText: 'Enter Location'),
               ),
@@ -102,23 +128,19 @@ class _addPersonState extends State<addPerson> {
                 title: 'Add Person',
                 colour: Colors.blueAccent,
                 onPressed: () async {
-                  setState(() {
-                    showSpinner = true;
-                  });
-                  // print(email);
-                  // print(password);
-                  // try {
-                  //   final newUser = await _auth.createUserWithEmailAndPassword(
-                  //       email: email, password: password);
-                  //   if (newUser != null) {
-                  //     Navigator.pushNamed(context, homeScreen.id);
-                  //   }
-                  //   setState(() {
-                  //     showSpinner = false;
-                  //   });
-                  // } catch (e) {
-                  //   print(e);
-                  // }
+                  try {
+                    storage
+                        .uploadFile(path, fileName, name)
+                        .then((value) => print('Image Uploaded'));
+                    database.addUser(name: name, address: address);
+                  } catch (e) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Couldnt Register'),
+                      ),
+                    );
+                  }
+                  Navigator.pop(context);
                 },
               )
             ],

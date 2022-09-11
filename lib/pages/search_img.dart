@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
+import 'package:firebase_ml_vision/firebase_ml_vision.dart';
+import 'package:file_picker/file_picker.dart';
 
 class searchImg extends StatefulWidget {
   const searchImg({Key? key}) : super(key: key);
@@ -42,7 +44,13 @@ class _searchImgState extends State<searchImg> {
                 child: Text(
                   'Choose Image',
                 ),
-                onPressed: () {})
+                onPressed: () async {
+                  final results = await FilePicker.platform.pickFiles(
+                    allowMultiple: false,
+                    type: FileType.custom,
+                    allowedExtensions: ['png', 'jpeg', 'jpg'],
+                  );
+                })
           ],
         ),
       ),

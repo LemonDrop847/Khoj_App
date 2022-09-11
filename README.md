@@ -55,7 +55,37 @@ We made an APP so that people can find their lost family members or at the very 
 <ol>3. NEWS ROOM - here we will try to provide updated ethical stats regarding the flood affected area.</ol>
 <ol>4. We also want to add a page where preventive measures or rapid procedures / action task force will be shown as a general awareness to the people</ol>
 
-
+## TEAM NEWBIE :sunglasses:
+<table>
+<tr>
+    <td align="center">
+        <img src="https://github.com/KuSantosh100/Khoj_App/blob/master/photo/nitin.jpg" width="100px;" alt=""/>
+        <br /><sub><b>Nitin Mishra</b></sub><br />
+      <a href="https://github.com/LemonDrop847"><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
+      <a href="mailto:awesomenitin847@gmail.com"><img src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'></a>
+      <a href="https://www.linkedin.com/in/nitin-mishra847/"><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a></td>
+      
+</tr>
+ <tr>
+    <td align="center">
+        <img src="https://github.com/KuSantosh100/Khoj_App/blob/master/photo/anil.jpg" width="100px;" alt=""/>
+        <br /><sub><b>Anil Kumar Behera</b></sub><br />
+      <a href="https://github.com/Anonymous961"><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
+      <a href="mailto:ark845612@gmail.com"><img src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'></a>
+      <a href="https://www.linkedin.com/in/anil-kumar-behera-4ba53922a/"><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>
+      </td>
+</tr>
+   <tr>
+    <td align="center">
+        <img src="https://github.com/KuSantosh100/Khoj_App/blob/master/photo/kumar%20santosh.jpeg" width="100px;" alt=""/>
+        <br /><sub><b>Kumar Santosh</b></sub><br />
+      <a href="https://github.com/KuSantosh100"><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
+      <a href="mailto:kumarsantos1m1@gmail.com"><img src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'></a>
+      <a href="https://www.linkedin.com/in/kumar-santosh-192491203/"><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>
+      </td>
+</tr>
+ 
+</table>
 
 
 

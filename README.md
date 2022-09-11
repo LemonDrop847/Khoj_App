@@ -4,6 +4,7 @@
 <p>A project for the HACKODISHA 2.0</p>
 <h2 align="center">Hello! :wave:</h2>
 
+<img align="" alt="coding" width="100%" src="https://i.postimg.cc/YSXvrwqW/Cover-Image.png" alt="">
 
 
 ## Introduction to the Problem :worried:

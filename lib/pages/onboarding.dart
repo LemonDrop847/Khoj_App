@@ -138,7 +138,7 @@ class _onboardingState extends State<onboarding> {
         Container(
           padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
           child: Text(
-            "This app aims to use innovative approaches to solving the problems in the diaster prone areas. Through technology, it aims to give you a sense of peace and calm knowing that your loved ones are safe.",
+            "This app aims to use innovative approaches to solving the problems in the disaster prone areas. Through technology, it aims to give you a sense of peace and calm.",
             style: TextStyle(
                 fontSize: 16, color: Colors.grey, fontFamily: 'Avenir'),
             textAlign: TextAlign.center,

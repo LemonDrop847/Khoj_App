@@ -48,7 +48,8 @@ dependencies:
   modal_progress_hud_nsn: ^0.3.0
   file_picker: ^4.6.1
   get_it: ^7.2.0
-
+  firestore_search: ^0.1.9
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

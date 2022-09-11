@@ -12,7 +12,8 @@
 <h3><b># Introduction(Problem)</b></h3>
 <img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
 
-<p>In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the NATURAL DISASTERS caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
+In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the  
+[natural disasters](https://en.wikipedia.org/wiki/Natural_disaster) caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
 
 
 <b>Recent Events Occured:-</b>
@@ -24,7 +25,7 @@ You can find about it more on:-
 * [jagranjosh](https://www.jagranjosh.com/general-knowledge/list-of-major-natural-disasters-in-the-history-of-india-1590147440-1)
 * [natural calamity](http://www.sikkimlrdm.gov.in/lrd/NaturalCalamity.html)
 
-We cannot solve these calamity problems but atleast we can help person in crisis so we built an APP where people can find their lost members.</p>
+We cannot solve these calamity problems but atleast we can help person in crisis so we built an APP where people can find their lost members.
 
 ## Problems it solves
 As a result of climate change, global warming, and its proximity to the Indian Ocean, it has just come to light that INDIA, along with Pakistan and Bangladesh, would all experience [natural disasters](https://en.wikipedia.org/wiki/Natural_disaster) like floods, landscapes, earthquakes, Volcanic eruptions in the future. Additionally, the recent floods in Pakistan, North-Eastern India, and Eastern India (Odisha) were devastating and caused the destruction of hundreds of thousands of homes as well as numerous public health facilities, water systems, and educational institutions. Many people lost their lives, were displaced, and frequently became separated from their families. For a while, they lived in fear of whether they would ever be reunited with them or whether they were still alive.
@@ -43,25 +44,27 @@ Our APP serves as a beacon of hope in this situation by helping people locate lo
 
 ## Key Features:key:
 <ol>1. MAIN FEATURE:- Here, the app's facial recognition technology may find photos and other information about the missing person, and relaying that information to both parties for further communication or used for search  operations.</ol>
-<ol>2.Sharing the affected person's present location with a photo to volunteers, the task force, and everyone in the area helps the situation.</ol>
-<ol>3.People who want to locate their missing family members can register, upload photos, and provide other details so that anyone with information can get in touch.</ol>
-<ol>4.The "Show location of relief centre" option displays the route to the operational relief centre from the user's present position.</ol>
-<ol>5.The Disaster relief team can publish a photo of the survivor so that family members can locate their loved one. - Search People page (List of Missing Persons and Submitting a Photo of Missing Person</ol>
+<ol>2. Sharing the affected person's present location with a photo to volunteers, the task force, and everyone in the area helps the situation.</ol>
+<ol>3. People who want to locate their missing family members can register, upload photos, and provide other details so that anyone with information can get in touch.</ol>
+<ol>4. The "Show location of relief centre" option displays the route to the operational relief centre from the user's present position.</ol>
+<ol>5. The Disaster relief team can publish a photo of the survivor so that family members can locate their loved one. - Search People page (List of Missing Persons and Submitting a Photo of Missing Person</ol>
 
 ## Prerequisites :desktop_computer:
 
-
+A device(Smartphone) with Android or IOS.
 
 Flutter Project
 =======
 ##  Built With :toolbox:
 1. <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" alt="Fire-base-logo" width="50" height="50" />
-2. <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" alt="flutter-logo" width="50" height="50" />
-3. <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original-wordmark.svg" alt="dart-logo" width="100" />
+2.  <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" alt="flutter-logo" width="50" height="50" />
+3. <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original-wordmark.svg" alt="dart-logo" width="50" />
 
 
 ## Working & Usage 
+Here, the app's facial recognition technology may find photos and other information about the missing person, and relaying that information to both parties for further communication or used for search  operations.
 
+People who want to locate their missing family members can register, upload photos, and provide other details so that anyone with information can get in touch.
 ## What we learned 🤓
 We are a group of very enthusiastic developers who are open to learning and experimenting with new techs. The thing which is common among us is that we love hackathons 🤩. In this hackathon we learnt .
 

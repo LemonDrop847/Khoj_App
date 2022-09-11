@@ -1,14 +1,17 @@
+![MasterHead](https://c.tenor.com/6aSncIN19j8AAAAC/banner.gif)
 <h2># khoj_app_hack</h2>
 
 <p>A new Flutter project.</p>
 
 <h3><b># Introduction(Problem)</b></h3>
+<img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
 
 <p>In the recent times it is observed that INDIA along with Pakistan and Bangladesh, all the south-asian nations are going to face the NATURAL DISASTERS caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged. 
 
 Almost 33 million people are displaced and many have lost their lives. U can find about it more on:-  
 
 We cannot solve these calamity problems but atleast we can help person in crisis so we built an APP where people can find their lost members.</p>
+
 
 
 <h3><b># Future Updates</b></h3>

@@ -19,18 +19,22 @@
 <b>Recent Events Occured:-</b>
 Almost 33 million people are displaced and many have lost their lives.  
 
-U can find about it more on:- 
+You can find about it more on:- 
 * <a href="https://www.livemint.com/news/india/odisha-floods-over-4-67-lakh-affected-govt-prepares-for-next-spell-of-rain-11660787648585.html">Odisha Floods</a> 
 * [Wikipedia](https://en.wikipedia.org/wiki/Natural_disasters_in_India)
 * [jagranjosh](https://www.jagranjosh.com/general-knowledge/list-of-major-natural-disasters-in-the-history-of-india-1590147440-1)
-* [natural calamity](http://www.sikkimlrdm.gov.in/lrd/NaturalCalamity.html)
-* <a href="http://www.emro.who.int/images/stories/Pakistans_2nd_sit_rep_final.pdf?ua=1">Pakistan Floods</a>  
+* [natural calamity](http://www.sikkimlrdm.gov.in/lrd/NaturalCalamity.html) 
 We cannot solve these calamity problems but atleast we can help person in crisis so we built an APP where people can find their lost members.</p>
 
+## Problems it solves
+As a result of climate change, global warming, and its proximity to the Indian Ocean, it has just come to light that INDIA, along with Pakistan and Bangladesh, would all experience [natural disasters](https://en.wikipedia.org/wiki/Natural_disaster) like floods, landscapes, earthquakes, Volcanic eruptions in the future. Additionally, the recent floods in Pakistan, North-Eastern India, and Eastern India (Odisha) were devastating and caused the destruction of hundreds of thousands of homes as well as numerous public health facilities, water systems, and educational institutions. Many people lost their lives, were displaced, and frequently became separated from their families. For a while, they lived in fear of whether they would ever be reunited with them or whether they were still alive.
+
+Our APP serves as a beacon of hope in this situation by helping people locate loved ones who have gone missing. The individual afflicted by floods or other disasters can use this app to locate lost loved ones based on their last known location and reunite with them.
 
 
 
-<h3><b># Future Updates</b></h3>
+
+
 
 ## Tagline :sparkles:
 
@@ -61,6 +65,23 @@ Flutter Project
 ## What we learned 🤓
 We are a group of very enthusiastic developers who are open to learning and experimenting with new techs. The thing which is common among us is that we love hackathons 🤩. In this hackathon we learnt .
 
+## Future Updates
+
+<ol>1. We can provide information regarding first aid , disaster reliefs</ol>
+<ol>2. We are thinking to build a platform through which messages can be ralyed to concerned people for donation purposes.</ol>
+<ol>3. NEWS ROOM - here we will try to provide updated ethical stats regarding the flood affected area.</ol>
+<ol>4. We also want to add a page where preventive measures or rapid procedures / action task force will be shown as a general awareness to the people</ol>
+
+## FAQ
+
+#### What is khoj app?
+
+It is an app which helps people to find lost people just by uploading a picture of that person.
+
+#### What are the compatible devices?
+
+This App can be used on Android and IOS devices.
+
 ## Our Mission   <img src="https://www.animatedimages.org/data/media/90/animated-fire-image-0379.gif" border="0" alt="animated-fire-image-0379" />
 <p>Hovering over various pages, reports, and news headlines allowed us to genuinely learn more in-depth about the issues/challenges faced by the people, which was one of the crucial aspects we encountered while gathering data sources for the floods or other natural tragedies. We felt quite devastated. We therefore anticipate that as technology advances, it will be able to assist a large number of individuals in crisis with 100% accuracy.
 
@@ -68,12 +89,6 @@ Recent Events Included: 33 million people are being displaced, and the Pakistan 
 We made an APP so that people can find their lost family members or at the very least, they won't ask, "WHERE THE HELL AM I?" Even though we cannot fix these terrible catastrophic problems, we can at least assist individuals in need.</p>
 
 
-## Future Updates
-
-<ol>1. We can provide information regarding first aid , disaster reliefs</ol>
-<ol>2. WE are thinking to build a platform through which messages can be ralyed to concerned people for donation purposes.</ol>
-<ol>3. NEWS ROOM - here we will try to provide updated ethical stats regarding the flood affected area.</ol>
-<ol>4. We also want to add a page where preventive measures or rapid procedures / action task force will be shown as a general awareness to the people</ol>
 
 ## TEAM NEWBIE :sunglasses:
 <table>
@@ -106,6 +121,11 @@ We made an APP so that people can find their lost family members or at the very 
 </tr>
  
 </table>
+
+## Issues
+
+Feel free to submit issues and enhancement requests.
+Please use our links to contact us.
 
 ## Contributing
 

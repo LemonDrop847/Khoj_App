@@ -1,12 +1,7 @@
-import 'dart:convert';
-import 'dart:io' as io;
-import 'dart:async';
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:khoj_app_hack/components/rounded_button.dart';
-import 'package:khoj_app_hack/locator.dart';
-import 'package:khoj_app_hack/services/face_detector_service.dart';
-import 'package:khoj_app_hack/services/ml_service.dart';
-import 'home.dart';
 import 'package:file_picker/file_picker.dart';
 
 class searchImg extends StatefulWidget {
@@ -20,13 +15,13 @@ class _searchImgState extends State<searchImg> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(117, 17, 124, 143),
+      backgroundColor: const Color.fromARGB(117, 17, 124, 143),
       appBar: AppBar(
           elevation: 0,
-          backgroundColor: Color.fromARGB(0, 17, 124, 143),
+          backgroundColor: const Color.fromARGB(0, 17, 124, 143),
           leading: IconButton(
             iconSize: 25,
-            icon: Icon(Icons.arrow_back_ios),
+            icon: const Icon(Icons.arrow_back_ios),
             onPressed: () {
               Navigator.pop(context);
             },
@@ -40,7 +35,7 @@ class _searchImgState extends State<searchImg> {
             Flexible(
               child: Hero(
                 tag: 'logo',
-                child: Container(
+                child: SizedBox(
                   height: 200.0,
                   child: Image.asset('images/logo.png'),
                 ),

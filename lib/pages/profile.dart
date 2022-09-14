@@ -1,7 +1,7 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:khoj_app_hack/services/storage_service.dart';
-import 'home.dart';
-import 'package:khoj_app_hack/services/database_service.dart';
 
 class personProfile extends StatefulWidget {
   const personProfile({Key? key}) : super(key: key);
@@ -20,7 +20,7 @@ class _personProfileState extends State<personProfile> {
         appBar: AppBar(
           leading: IconButton(
               iconSize: 25,
-              icon: Icon(Icons.arrow_back_ios),
+              icon: const Icon(Icons.arrow_back_ios),
               onPressed: () {
                 Navigator.pop(context);
               }),
@@ -33,7 +33,7 @@ class _personProfileState extends State<personProfile> {
                     (BuildContext context, AsyncSnapshot<String> snapshot) {
                   if (snapshot.connectionState == ConnectionState.done &&
                       snapshot.hasData) {
-                    return Container(
+                    return SizedBox(
                       width: 300,
                       height: 300,
                       child: Image.network(
@@ -43,7 +43,9 @@ class _personProfileState extends State<personProfile> {
                     );
                   }
                   if (snapshot.connectionState == ConnectionState.waiting ||
-                      !snapshot.hasData) return CircularProgressIndicator();
+                      !snapshot.hasData) {
+                    return const CircularProgressIndicator();
+                  }
                   return Container();
                 }),
           ],

@@ -10,7 +10,7 @@ imglib.Image? convertToImage(CameraImage image) {
     }
     throw Exception('Image format not supported');
   } catch (e) {
-    print("ERROR:" + e.toString());
+    print("ERROR:$e");
   }
   return null;
 }

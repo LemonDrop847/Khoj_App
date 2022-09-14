@@ -1,37 +1,43 @@
+// ignore_for_file: camel_case_types, library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 import 'home.dart';
 
 class Onboarding extends StatelessWidget {
   static const String id = 'onboarding';
+
+  const Onboarding({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Avenir'),
-      home: onboarding(),
+      home: const onboarding(),
     );
   }
 }
 
 class onboarding extends StatefulWidget {
+  const onboarding({Key? key}) : super(key: key);
+
   @override
   _onboardingState createState() => _onboardingState();
 }
 
 class _onboardingState extends State<onboarding> {
   int currentPage = 0;
-  PageController _pageController =
-      new PageController(initialPage: 0, keepPage: true);
+  final PageController _pageController =
+      PageController(initialPage: 0, keepPage: true);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(117, 17, 124, 143),
+      backgroundColor: const Color.fromARGB(117, 17, 124, 143),
       body: Stack(
         children: [
           Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Container(
+              SizedBox(
                 height: MediaQuery.of(context).size.height * 0.6,
                 child: PageView(
                   controller: _pageController,
@@ -54,10 +60,10 @@ class _onboardingState extends State<onboarding> {
             left: 0,
             right: 0,
             child: Container(
-              margin: EdgeInsets.only(top: 20),
+              margin: const EdgeInsets.only(top: 20),
               height: 300,
               width: MediaQuery.of(context).size.width,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                   image: DecorationImage(
                       image: AssetImage('images/path1.png'), fit: BoxFit.fill)),
               child: Column(
@@ -68,13 +74,13 @@ class _onboardingState extends State<onboarding> {
                       Navigator.pushNamed(context, homeScreen.id);
                     },
                     child: Container(
-                      padding:
-                          EdgeInsets.symmetric(vertical: 20, horizontal: 100),
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 20, horizontal: 100),
                       decoration:
                           BoxDecoration(color: Colors.white, boxShadow: [
                         BoxShadow(
                             color: Colors.black.withOpacity(0.2),
-                            offset: Offset(0, 9),
+                            offset: const Offset(0, 9),
                             blurRadius: 20,
                             spreadRadius: 3)
                       ]),
@@ -98,12 +104,12 @@ class _onboardingState extends State<onboarding> {
 
   AnimatedContainer getIndicator(int pageNo) {
     return AnimatedContainer(
-      duration: Duration(milliseconds: 100),
+      duration: const Duration(milliseconds: 100),
       height: 10,
       width: (currentPage == pageNo) ? 20 : 10,
-      margin: EdgeInsets.symmetric(horizontal: 5),
+      margin: const EdgeInsets.symmetric(horizontal: 5),
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(Radius.circular(5)),
+          borderRadius: const BorderRadius.all(Radius.circular(5)),
           color: (currentPage == pageNo) ? Colors.black : Colors.grey),
     );
   }
@@ -112,32 +118,32 @@ class _onboardingState extends State<onboarding> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Container(
           height: 200,
           width: MediaQuery.of(context).size.width,
-          padding: EdgeInsets.all(50),
+          padding: const EdgeInsets.all(50),
           decoration: BoxDecoration(
               image: DecorationImage(image: AssetImage('images/$img.png'))),
         ),
-        SizedBox(
+        const SizedBox(
           height: 50,
         ),
         Container(
-          padding: EdgeInsets.symmetric(vertical: 10),
+          padding: const EdgeInsets.symmetric(vertical: 10),
           child: Text(
             title,
-            style: TextStyle(
+            style: const TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.w500,
                 fontFamily: 'Nunito'),
           ),
         ),
         Container(
-          padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
-          child: Text(
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+          child: const Text(
             "This app aims to use innovative approaches to solving the problems in the disaster prone areas. Through technology, it aims to give you a sense of peace and calm.",
             style: TextStyle(
                 fontSize: 16, color: Colors.grey, fontFamily: 'Avenir'),

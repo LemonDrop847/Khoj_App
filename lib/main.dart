@@ -26,12 +26,12 @@ class MyApp extends StatelessWidget {
       initialRoute: Onboarding.id,
       routes: {
         Onboarding.id: (context) => onboarding(),
-        homeScreen.id: (context) => homeScreen(),
-        searchImg.id: (context) => searchImg(),
-        addPerson.id: (context) => addPerson(),
-        searchName.id: (context) => searchName(),
-        personProfile.id: (context) => personProfile(),
-        searchPeople.id: (context) => searchPeople(),
+        homeScreen.id: (context) => const homeScreen(),
+        searchImg.id: (context) => const searchImg(),
+        addPerson.id: (context) => const addPerson(),
+        searchName.id: (context) => const searchName(),
+        personProfile.id: (context) => const personProfile(),
+        searchPeople.id: (context) => const searchPeople(),
       },
     );
   }

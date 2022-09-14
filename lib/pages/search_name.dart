@@ -1,13 +1,9 @@
-import 'package:animated_text_kit/animated_text_kit.dart';
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
+
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:khoj_app_hack/services/storage_service.dart';
 import 'package:khoj_app_hack/services/database_service.dart';
-import 'home.dart';
-import '../components/rounded_button.dart';
-import '../constants.dart';
-import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:firestore_search/firestore_search.dart';
 
 class searchName extends StatefulWidget {
@@ -52,7 +48,7 @@ class _searchNameState extends State<searchName> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(117, 17, 124, 143),
+      backgroundColor: const Color.fromARGB(117, 17, 124, 143),
       // appBar: AppBar(
       //     elevation: 0,
       //     backgroundColor: Color.fromARGB(0, 17, 124, 143),
@@ -64,9 +60,9 @@ class _searchNameState extends State<searchName> {
       //       },
       //     )),
       body: FirestoreSearchScaffold(
-        scaffoldBackgroundColor: Color.fromARGB(255, 17, 124, 143),
-        searchBodyBackgroundColor: Color.fromARGB(117, 17, 124, 143),
-        appBarBackgroundColor: Color.fromARGB(0, 17, 124, 143),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 17, 124, 143),
+        searchBodyBackgroundColor: const Color.fromARGB(117, 17, 124, 143),
+        appBarBackgroundColor: const Color.fromARGB(0, 17, 124, 143),
         firestoreCollectionName: 'people',
         searchBy: 'name',
         scaffoldBody: Center(
@@ -77,13 +73,13 @@ class _searchNameState extends State<searchName> {
             Flexible(
               child: Hero(
                 tag: 'logo',
-                child: Container(
+                child: SizedBox(
                   height: 200.0,
                   child: Image.asset('images/logo.png'),
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 48.0,
             ),
           ],
@@ -136,8 +132,8 @@ class _searchNameState extends State<searchName> {
                             ),
                             Text(
                               '${data.name}',
-                              style:
-                                  TextStyle(fontFamily: 'Nunito', fontSize: 40),
+                              style: const TextStyle(
+                                  fontFamily: 'Nunito', fontSize: 40),
                             ),
                           ],
                         ),
@@ -146,8 +142,8 @@ class _searchNameState extends State<searchName> {
                         padding: const EdgeInsets.only(
                             bottom: 8.0, left: 8.0, right: 8.0),
                         child: Text('Located at: ${data.location}',
-                            style:
-                                TextStyle(fontFamily: 'Avenir', fontSize: 20)),
+                            style: const TextStyle(
+                                fontFamily: 'Avenir', fontSize: 20)),
                       )
                     ],
                   );

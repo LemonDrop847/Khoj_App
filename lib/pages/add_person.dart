@@ -1,9 +1,9 @@
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, use_build_context_synchronously
+
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:khoj_app_hack/services/storage_service.dart';
 import 'package:khoj_app_hack/services/database_service.dart';
-import 'home.dart';
 import '../components/rounded_button.dart';
 import '../constants.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
@@ -28,13 +28,13 @@ class _addPersonState extends State<addPerson> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(117, 17, 124, 143),
+      backgroundColor: const Color.fromARGB(117, 17, 124, 143),
       appBar: AppBar(
           elevation: 0,
-          backgroundColor: Color.fromARGB(0, 17, 124, 143),
+          backgroundColor: const Color.fromARGB(0, 17, 124, 143),
           leading: IconButton(
             iconSize: 25,
-            icon: Icon(Icons.arrow_back_ios),
+            icon: const Icon(Icons.arrow_back_ios),
             onPressed: () {
               Navigator.pop(context);
             },
@@ -51,9 +51,9 @@ class _addPersonState extends State<addPerson> {
                 children: <Widget>[
                   Hero(
                     tag: 'logo',
-                    child: Container(
-                      child: Image.asset('images/logo.png'),
+                    child: SizedBox(
                       height: 100,
+                      child: Image.asset('images/logo.png'),
                     ),
                   ),
                   Hero(
@@ -77,7 +77,7 @@ class _addPersonState extends State<addPerson> {
                 ],
               ),
               RoundedButton(
-                  colour: Color.fromARGB(255, 51, 51, 51),
+                  colour: const Color.fromARGB(255, 51, 51, 51),
                   title: 'Choose Image',
                   onPressed: () async {
                     final results = await FilePicker.platform.pickFiles(
@@ -91,7 +91,7 @@ class _addPersonState extends State<addPerson> {
                           content: Text('No Image Selected'),
                         ),
                       );
-                      return null;
+                      return;
                     }
                     path = results.files.single.path!;
                     fileName = results.files.single.name;
@@ -99,7 +99,7 @@ class _addPersonState extends State<addPerson> {
                     print(path);
                     print(fileName);
                   }),
-              SizedBox(
+              const SizedBox(
                 height: 48.0,
               ),
               TextField(

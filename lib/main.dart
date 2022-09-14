@@ -15,17 +15,19 @@ void main() async {
   await Firebase.initializeApp();
   setupServices();
 
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: Onboarding.id,
       routes: {
-        Onboarding.id: (context) => onboarding(),
+        Onboarding.id: (context) => const onboarding(),
         homeScreen.id: (context) => const homeScreen(),
         searchImg.id: (context) => const searchImg(),
         addPerson.id: (context) => const addPerson(),

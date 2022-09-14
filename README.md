@@ -63,7 +63,7 @@ Get packages
 ```
 flutter pub get
 ```
-Build and run main.dart!
+Build and run main.dart.
 
 ## What we learned 🤓
 We are a group of developers who are open to learning and experimenting with new tech. During this hackathon we learnt -

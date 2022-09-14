@@ -10,10 +10,10 @@
 ## Introduction to the Problem :worried:
 <img align="right" alt="coding" width="30%" src="https://c.tenor.com/qY74aL5yWb0AAAAC/where-the-hell-am-i-where-am-i.gif" alt="">
 
-<p>In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the NATURAL DISASTERS caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged.Similarly many people have lost their families on event of these demons of nature. 
+<p>In the recent times it is observed that INDIA aong with Pakistan and Bangladesh, all the south-asian nations are going to face the natural disasters caused by  global warming, climate change due to it close proximity to the Indian Ocean . Moreover the recent floods in Pakistan , North-Eastern part of India, or eastern part of India(Odisha) faced humongous floods which eventually caused Hundreds of thousands of homes have been destroyed, while many public health facilities, water systems and schools have been destroyed or damaged.Similarly many people have lost their families on event of these demons of nature. 
 While solving such a large scale issue is a very humoungous task to undertake which would undoubntedly require collective efforts of all humans on Earth, atleast a small step in the right direction can be taken to prevent people from losing each other.
 
-
+<!---
 <b>Recent Events Occured:-</b>
 Almost 33 million people are displaced and many have lost their lives.  
 
@@ -29,7 +29,7 @@ We cannot solve these calamity problems but atleast we can help person in crisis
 As a result of climate change, global warming, and its proximity to the Indian Ocean, it has just come to light that INDIA, along with Pakistan and Bangladesh, would all experience [natural disasters](https://en.wikipedia.org/wiki/Natural_disaster) like floods, landscapes, earthquakes, Volcanic eruptions in the future. Additionally, the recent floods in Pakistan, North-Eastern India, and Eastern India (Odisha) were devastating and caused the destruction of hundreds of thousands of homes as well as numerous public health facilities, water systems, and educational institutions. Many people lost their lives, were displaced, and frequently became separated from their families. For a while, they lived in fear of whether they would ever be reunited with them or whether they were still alive.
 
 Our app serves as a beacon of hope in this situation by helping people locate loved ones who have gone missing. The individual afflicted by floods or other disasters can use this app to locate lost loved ones based on their last known location and reunite with them.
-
+-->
 ## The Idea 
 
 Many people while still being alive, arent able to contact their family in event of these large scale disasters. The idea behind this app is thatpeople who have been rescued from the diaster affected area, their details can be uploaded on the database which then their family and loved ones can retrieve by simply uploading a photo or typing in their name.

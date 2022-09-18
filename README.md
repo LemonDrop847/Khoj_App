@@ -1,4 +1,4 @@
-![MasterHead](https://c.tenor.com/6aSncIN19j8AAAAC/banner.gif&center=true)
+<!--![MasterHead](https://c.tenor.com/6aSncIN19j8AAAAC/banner.gif&center=true)-->
 
 <h1 align="center"><b>KHOJ</b></h1>
 <p>A project for the HACKODISHA 2.0</p>
